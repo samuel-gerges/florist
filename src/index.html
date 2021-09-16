@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="courte description">
+    <title>Chez Gerges</title>
+    <link rel="icon" href="images/rose.jpeg" type="image/x-icon">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="menu" role="banner" class="menu">
+
+        <div class="menu-title">
+            Chez Gerges
+        </div>
+
+        <div id="page-title">Connexion</div>
+
+        <nav class="menu-elements">
+            <ul>
+                <li class="menu-elmt"><a href="#">Page d'accueil</a></li>
+                <li class="menu-elmt"><a href="#">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br>
+
+    <div id="forms">
+        <div class="form" id="form-1">
+            <form id="form-users" method="post" action="/accueil">
+
+                <h1>Connexion utilisateurs</h1>
+
+                <label class="label"><b>Nom d'utilisateur *</b></label>
+                <input type="text" class="input-t" placeholder="Entrez votre nom d'utilisateur" name="name" required>
+
+                <label class="label"><b>Mot de passe *</b></label>
+                <input type="password" class="input-p" placeholder="Entrez votre mot de passe" name="password" required>
+
+                <input type="submit" class="input-s" id='submit-1' value='Réinitialiser'>
+                <input type="submit" class="input-s" id='submit-2' value='Se connecter'>
+
+            </form>
+        </div>
+
+
+        <div class="form" id="form-2">
+            <form id="form-workers" method="POST" action="/employes">
+
+                <h1>Connexion employés</h1>
+
+                <label class="label"><b>Nom d'utilisateur *</b></label>
+                <input type="text" class="input-t" placeholder="Entrez votre nom d'utilisateur" name="name" required>
+
+                <label class="label"><b>Mot de passe *</b></label>
+                <input type="password" class="input-p" placeholder="Entrez votre mot de passe" name="password" required>
+
+                <input type="submit" class="input-s" id='submit-1' value='Réinitialiser'>
+                <input type="submit" class="input-s" id='submit-2' value='Se connecter'>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

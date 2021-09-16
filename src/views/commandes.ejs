@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chez Gerges</title>
+    <link href="panier.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="icon" href="images/rose.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <header id="menu" role="banner" class="menu">
+
+        <div class="menu-title">
+            Chez Gerges
+        </div>
+
+        <div id="page-title">Mes commandes</div>
+
+        <nav class="menu-elements">
+            <ul>
+                <li class="menu-elmt"><a href="accueil">Page d'accueil</a></li>
+                <li class="menu-elmt"><a href="panier">Panier</a></li>
+                <li class="menu-elmt" id="logs">Bonjour <span id="user-name">
+                        <%= name %>
+                    </span>!</li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <div id="commandes-content">
+
+        <div class="products-descr-commandes">
+
+        </div>
+
+    </div>
+
+    <script src="commandes.js"></script>
+
+</body>
+
+</html>

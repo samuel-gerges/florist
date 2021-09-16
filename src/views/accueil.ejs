@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chez Gerges</title>
+    <link href="panier.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="icon" href="images/rose.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <header id="menu" role="banner" class="menu">
+
+        <div class="menu-title">
+            Chez Gerges
+        </div>
+
+        <div id="page-title">Accueil</div>
+
+        <nav class="menu-elements">
+            <ul>
+                <li class="menu-elmt"><a href="accueil">Page d'accueil</a></li>
+                <li class="menu-elmt"><a href="commandes">Mes commandes</a></li>
+                <li class="menu-elmt"><a href="panier">Panier</a></li>
+                <li class="menu-elmt" id="logs">Bonjour <%= name %>!</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="post-header">
+        <h2 id="slogan">Faites lui une fleur (en lui offrant une fleur).</h2>
+
+        <div id="msgs-bienv">
+            <p>Bienvenue Chez votre Fleuriste Gerges, fleuriste depuis 2011. Faites vos choix, concoctez-vous un panier
+                et
+                passez commande. Vous avez
+                le
+                choix entre une multitude de bouquets déjà faits ou des bouquets que vous pouvez personnaliser, bonne
+                sélection !</p>
+        </div>
+    </div>
+
+    <div class="flowers">
+
+        <div class="flowers1">
+            <span class="bouquet_img"><img src="images/coquelicots.jpg"
+                    style="height: 200px; width: 200px; background-color: white;"></span>
+
+            <span class="bouquet_img"><img src="images/roses_roses.jpeg"
+                    style="height: 200px; width: 250px; background-color: white;"></span>
+
+            <span class="bouquet_img"><img src="images/lys.jpeg"
+                    style="height: 200px; width: 200px; background-color: white;"></span>
+        </div>
+
+        <div class="flowers2">
+
+            <span class="bouquet_img"><img src="images/roses.jpeg"
+                    style="height: 200px; width: 200px; background-color: white;"></span>
+
+            <span class="bouquet_img"><img src="images/bouquet-perso.png"
+                    style="height: 200px; width: 200px; background-color: white;"></span>
+        </div>
+
+    </div>
+    <div class="acheter">
+        <span><a href="utilisateurs">Acheter</a></span>
+    </div>
+
+</body>
+
+</html>

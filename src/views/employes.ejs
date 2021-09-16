@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chez Gerges</title>
+    <link href="panier.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="icon" href="images/rose.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <style>
+        .menu {
+            background: rgb(110, 11, 11);
+        }
+
+        .menu-elmt {
+            border: 1px solid rgb(114, 90, 90);
+            background-color: rgb(114, 90, 90);
+        }
+
+        footer {
+            background-color: rgb(110, 11, 11);
+        }
+    </style>
+    <header id="menu" role="banner" class="menu">
+
+        <div class="menu-title">
+            Chez Gerges
+        </div>
+
+        <div id="page-title">Commandes à préparer</div>
+
+        <nav class="menu-elements">
+            <ul>
+                <li class="menu-elmt"><a href="accueil">Page d'accueil</a></li>
+                <li class="menu-elmt" id="logs">Bonjour <%= name %>!</li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <div id="commandes-content">
+
+        <div class="products-descr-employes">
+
+        </div>
+
+    </div>
+
+    <script src="employes.js"></script>
+
+</body>
+
+</html>

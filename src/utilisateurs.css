@@ -1,0 +1,254 @@
+* {
+	font-family: Times, "Times New Roman", serif;
+    
+    box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.75;
+	color: #FFF;
+	background: #FFF;
+	width: 100%;
+}
+
+.name_and_price {
+	float: left;
+}
+
+.add_to_cart {
+	float: right;
+	padding-right: 20px;
+}
+
+.menu {
+	color: #FFF;
+	background: #a02312;
+    position: relative;
+	top: 0;
+	display: table;
+	width: 100%;
+	padding: 10px 25px;
+	font-size: 25px;
+}
+
+.menu-title {
+	font-family: Times, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 40px;
+	text-align: left;
+}
+
+.choices_and_range {
+	max-width: 1060px;
+	color: #FFF;
+    font-size: 20px;
+    position: relative;
+	display: table;
+	width: 100%;
+	padding: 10px 25px;
+	margin: 0 auto;
+}
+
+.elts {
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.elt1 {
+	border-radius: 10px;
+	text-align: left;
+	padding: 1.5%;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.elt2 {
+	border-radius: 10px;
+	float: right;
+	padding: 1.5%;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.elt1 li, .elt2 li {
+	display: inline;
+}
+
+#bouquets_basiques, #bouquets_custom {
+	background-color: rgb(180, 29, 29);
+    color: white;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+#bouquets_basiques a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#bouquets_custom a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#bouquets_basiques a:active {
+	background-color: white;
+    color: rgb(180, 29, 29);
+}
+
+#bouquets_custom a:active {
+	background-color: white;
+    color: rgb(180, 29, 29);
+}
+
+.menu-elements {
+	text-align: right;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.menu-elements a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu-elmt {
+    display: inline;
+	border: 1px solid rgb(180, 29, 29);
+	background-color: rgb(180, 29, 29);
+	border-radius: 10px;
+	padding: 1.5%;
+    font-size: 20px;
+}
+
+.menu-elmt :hover {
+	border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 1060px) {
+	.bouquets {
+		align-self: center;
+		border: 1px solid black;
+		height: x-large;
+		width: relative;
+		text-align: center;
+		color: black;
+		border: border-box;
+		margin: 0 auto;
+		line-height: 80%;
+	
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	.bouquets {
+		align-self: center;
+		border: 1px solid black;
+		height: x-large;
+		width: 1060px;
+		text-align: center;
+		color: black;
+		border: border-box;
+		margin: 0 auto;
+		line-height: 80%;
+	
+	}
+}
+
+.bouquet {
+    border: 1px solid transparent;
+    height: 380px;
+    width: 330px;
+    padding: 0%;
+    display: inline-block;
+}
+
+.bouquet:hover {
+    border: 1px solid grey;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.titre2 {
+	color: black;
+	font-style: italic;
+	padding-left: 250px;
+	padding-top: 30px;
+	font-size: 25px;
+}
+
+.header-products {
+	display: inline-flex;
+	margin: 0 auto;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -50px;
+	background-color: rgb(180, 29, 29);
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#custom {
+	border: solid 1px black;
+	height: x-large;
+	width: 800px;
+	text-align: center;
+	color: black;
+	border: border-box;
+	margin: 0 auto;
+	line-height: 80%;
+	display: none;
+}
+
+.flowers {
+	border: 1px solid black;
+	height: 500px;
+	width: 800px;
+	color: black;
+	border: border-box;
+	line-height: 80%;
+	overflow-y: scroll;
+	scrollbar-arrow-color: rgb(180, 29, 29);
+	scrollbar-width: large;
+}
+
+.flower {
+    border: 1px solid transparent;
+    height: 400px;
+    width: 330px;
+    padding: 0%;
+    display: inline-block;
+}
+
+#page-title {
+	font-size: 35px;
+    padding-left: 200px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	font-style: italic;
+}

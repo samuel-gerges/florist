@@ -1,0 +1,229 @@
+* {
+    font-family: Times, "Times New Roman", serif;
+    box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.75;
+	color: black;
+	background: #FFF;
+	width: 100%;
+}
+
+.prix_total {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.menu {
+	color: #FFF;
+    font-size: 12px;
+	background: #a02312;
+    position: sticky;
+	top: 0;
+    display: table;
+    width: 100%;
+	padding: 10px 25px;
+}
+
+#logo {
+	padding-top: 10px;
+}
+
+.menu-title {
+	font-style: italic;
+	font-size: 45px;
+	text-align: left;
+}
+
+#page-title {
+    font-style: italic;
+	font-size: 35px;
+    padding-left: 200px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menu-elements {
+	text-align: right;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.menu-elements a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu-elmt {
+    display: inline;
+	border: 1px solid rgb(180, 29, 29);
+	background-color: rgb(180, 29, 29);
+	border-radius: 10px;
+	padding: 1.5%;
+    font-size: 20px;
+}
+
+.menu-elmt :hover {
+	border-bottom: 3px solid white;
+}
+
+.post-header {
+    margin: 0 auto;
+    max-width: 1400px;
+    border: 1px solid rgb(180, 29, 29);
+    border-radius: 15px;
+}
+
+#slogan {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+#msgs-bienv {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#forms {
+    max-width: 1400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    width: 600px;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    display: inline-block;
+}
+
+.form h1 {
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+#form-users {
+    float: left;
+}
+
+#form-workers {
+    float: right;
+}
+
+.acheter {
+	background-color: rgb(180, 29, 29);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+    width: 20%;
+    font-size: 30px;
+}
+
+#terminer-btn {
+    font-size: 12px;
+    border: 1px solid rgb(180, 29, 29);
+	background-color: rgb(180, 29, 29);
+	border-radius: 10px;
+	padding: 5%;
+    font-size: 20px;
+    color: #FFF;
+    float: right;
+}
+
+.acheter a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.flowers {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.label {
+    padding-right: 400px;
+}
+
+.input-t, .input-p {
+    display: inline-block;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.input-s {
+    background-color: rgb(180, 29, 29);
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+}
+
+.input-s :hover {
+    background-color: white;
+    color: rgb(180, 29, 29);
+    border: 1px solid rgb(180, 29, 29);
+}
+
+#submit1 {
+    float: left;
+}
+
+#submit2 {
+    float: right;
+}
+
+footer {
+	position: relative;
+    height: 100px;
+	width: 100%;
+	bottom: -300px;
+	background-color: rgb(180, 29, 29);
+	color: white;
+	text-align: center;
+}
+
+/* Autres fichiers */
+
+.commander {
+    font-size: 12px;
+    border: 1px solid rgb(180, 29, 29);
+	background-color: rgb(180, 29, 29);
+	border-radius: 10px;
+	padding: 1%;
+    font-size: 20px;
+    color: #FFF;
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.commander a {
+    color: inherit;
+	text-decoration: none;
+}

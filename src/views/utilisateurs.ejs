@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chez Gerges</title>
+    <link href="utilisateurs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <link rel="icon" href="images/rose.jpeg" type="image/x-icon">
+    <script src="utilisateurs.js"></script>
+</head>
+
+<body>
+    <header id="menu" role="banner" class="menu">
+
+        <div class="menu-title">
+            Chez Gerges
+        </div>
+
+        <div id="page-title">Articles</div>
+
+        <nav class="menu-elements">
+            <ul>
+                <li class="menu-elmt"><a href="accueil">Page d'accueil</a></li>
+                <li class="menu-elmt"><a href="commandes">Mes commandes</a></li>
+                <li class="menu-elmt"><span id="panier-boutton"><a href="panier">Panier</a></span></li>
+                <li class="menu-elmt" id="logs">Bonjour <span id="user-name">
+                        <%= name %>
+                    </span>!</li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br>
+
+    <div class="choices_and_range">
+        <nav class="elts">
+            <ul>
+                <li class="elt1" id="bouquets_basiques"><a href="#">Bouquets basiques</a></li>
+                <li class="elt1" id="bouquets_custom"><a href="#">Bouquets personnalisés</a></li>
+                <li class="elt2">
+                    <div class="price-range"><input type="range" id="range-p" name="range-p" min="50" max="100"
+                            value="100" step="5"></span></div>
+                </li>
+                <li class="elt2"><span id="price-range-number">100</span>€</li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="bouquets">
+        <div class="bouquet">
+            <div id="test-zoom">
+                <img src="images/roses.jpeg" class="bouquet_img" id="roses" alt="bouquet-infos">
+            </div>
+            <p class="bouquet_descr">Bouquet de <span id="roses_quantity">20</span> roses</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="roses_price">100.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+
+        <div class="bouquet">
+            <img src="images/roses_roses.jpeg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="roses_roses_quantity">20</span> roses roses</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="roses_roses_price">80.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+
+        <div class="bouquet">
+            <img src="images/tournesols.jpg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="tournesols_quantity">20</span> tournesols</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="tournesols_price">70.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+        <div class="bouquet">
+            <img src="images/tulipes_multicolores.jpg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="tulipes_m_quantity">20</span> tulipes multicolores</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="tulipes_m_price">60.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+        <div class="bouquet">
+            <img src="images/tulipes_roses.jpg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="tulipes_r_quantity">20</span> tulipes roses</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="tulipes_r_price">60.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+        <div class="bouquet">
+            <img src="images/coquelicots.jpg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="coquelicots_quantity">20</span> coquelicots</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="coquelicots_price">50.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+        <div class="bouquet">
+            <img src="images/lys.jpeg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="lys_quantity">20</span> lys</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="lys_price">50.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+
+        <div class="bouquet">
+            <img src="images/marguerites.jpg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="marguerites_quantity">20</span> marguerites</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="marguerites_price">60.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+
+        <div class="bouquet">
+            <img src="images/orchidées_blanches.jpeg" class="bouquet_img">
+            <p class="bouquet_descr">Bouquet de <span id="orchidées_b_quantity">20</span> orchidées blanches</p>
+            <p class="bouquet_price"><span class="bouquet_price_s" id="orchidées_b_price">50.00</span>€</p>
+            <span class="add_to_cart"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+    </div>
+
+    <div id="custom">
+        <div class="flowers">
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/rose1.jpg" id="rose">
+                </div>
+                <p class="flower_name">Rose</p>
+                <p class="flower_quan"><span class="quan" id="rose_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="rose_price1">5.00</span>€</p>
+
+                <button class="plus2" id="plus_rose">+</button>
+                <button class="minus2" id="minus_rose">-</button>
+            </div>
+
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/rose_rose.jpg">
+                </div>
+                <p class="flower_name">Rose rose</p>
+                <p class="flower_quan"><span class="quan" id="rose_rose_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="rose_rose_price">4.00</span>€</p>
+
+                <button class="plus2" id="plus_rose_rose">+</button>
+                <button class="minus2" id="minus_rose_rose">-</button>
+            </div>
+
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/tournesol.jpeg">
+                </div>
+                <p class="flower_name">Tournesol</p>
+                <p class="flower_quan"><span class="quan" id="tournesol_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="tournesol_price">3.50</span>€</p>
+
+                <button class="plus2" id="plus_tournesol">+</button>
+                <button class="minus2" id="minus_tournesol">-</button>
+            </div>
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/tulipe_jaune.jpg">
+                </div>
+                <p class="flower_name">Tulipe jaune</p>
+                <p class="flower_quan"><span class="quan" id="tulipe_j_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="tulipe_j_price">3.00</span>€</p>
+
+                <button class="plus2" id="plus_tulipe_j">+</button>
+                <button class="minus2" id="minus_tulipe_j">-</button>
+            </div>
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/tulipe_rouge.jpg">
+                </div>
+                <p class="flower_name">Tulipe rose</p>
+                <p class="flower_quan"><span class="quan" id="tulipe_r_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="tulipe_r_price">3.00</span>€</p>
+
+                <button class="plus2" id="plus_tulipe_r">+</button>
+                <button class="minus2" id="minus_tulipe_r">-</button>
+            </div>
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/tulipe_orange.JPG">
+                </div>
+                <p class="flower_name">Tulipe orange</p>
+                <p class="flower_quan"><span class="quan" id="tulipe_o_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="tulipe_o_price">3.00</span>€</p>
+
+                <button class="plus2" id="plus_tulipe_o">+</button>
+                <button class="minus2" id="minus_tulipe_o">-</button>
+            </div>
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/coquelicot.jpg">
+                </div>
+                <p class="flower_name">Coquelicot</p>
+                <p class="flower_quan"><span class="quan" id="coquelicot_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="coquelicot_price">2.50</span>€</p>
+
+                <button class="plus2" id="plus_coquelicot">+</button>
+                <button class="minus2" id="minus_coquelicot">-</button>
+            </div>
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/lys1.jpg">
+                </div>
+                <p class="flower_name">Lys</p>
+                <p class="flower_quan"><span class="quan" id="lys_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="lys1_price">2.50</span>€</p>
+
+                <button class="plus2" id="plus_lys1">+</button>
+                <button class="minus2" id="minus_lys1">-</button>
+            </div>
+
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/marguerite.jpg">
+                </div>
+                <p class="flower_name">Marguerite</p>
+                <p class="flower_quan"><span class="quan" id="marguerite_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="marguerite_price">3.00</span>€</p>
+
+                <button class="plus2" id="plus_marguerite">+</button>
+                <button class="minus2" id="minus_marguerite">-</button>
+            </div>
+
+
+            <div class="flower">
+                <div class="flower_img">
+                    <img src="images/orchidée_blanche.jpeg.jpg">
+                </div>
+                <p class="flower_name">Orchidée blanche</p>
+                <p class="flower_quan"><span class="quan" id="orchidée_b_quan">0</span></p>
+                <p class="flower_price"><span class="price" id="orchidée_b_price">2.50</span>€</p>
+
+                <button class="plus2" id="plus_orchidée_b">+</button>
+                <button class="minus2" id="minus_orchidée_b">-</button>
+            </div>
+        </div>
+
+        <div class="custom-block">
+            <p>Prix total : <span id="prix-total-custom">0</span>€</p>
+            <span class="add_to_cart2"><img src="images/addtocart.png"
+                    style="height: 40px; width: 40px; background-color: white;"></span>
+        </div>
+
+        <div id="result">
+
+        </div>
+    </div>
+    <script src="utilisateurs.js"></script>
+
+</body>
+
+</html>
